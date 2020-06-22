@@ -28,7 +28,9 @@ public class Q5_1 {
 		int n_cleared = n & mask; // Clear bits j through i
 		int m_shifted = m << i; // Move m into correct position
 		
+		System.out.println(Integer.toBinaryString(n_cleared | m_shifted));
 		return n_cleared | m_shifted;
+		
 	}
 	
 
